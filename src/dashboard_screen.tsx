@@ -47,14 +47,14 @@ export function DashboardScreen() {
             <ControlButton icon={<ArrowUp className="w-12 h-12" />} onClick={() => handlePress('1')} />
             <div></div>
 
-            <ControlButton icon={<ArrowLeft className="w-12 h-12" />} onClick={() => handlePress('4')} />
+            <ControlButton icon={<ArrowLeft className="w-12 h-12" />} onClick={() => handlePress('3')} />
             <button 
               onClick={() => handlePress('0')}
               className="w-24 h-24 bg-[#FF4444] rounded-full shadow-[0_0_20px_rgba(255,68,68,0.4)] flex items-center justify-center hover:scale-105 active:scale-95 transition-transform"
             >
               <span className="font-black text-xl text-white">STOP</span>
             </button>
-            <ControlButton icon={<ArrowRight className="w-12 h-12" />} onClick={() => handlePress('3')} />
+            <ControlButton icon={<ArrowRight className="w-12 h-12" />} onClick={() => handlePress('4')} />
 
             <div></div>
             <ControlButton icon={<ArrowDown className="w-12 h-12" />} onClick={() => handlePress('2')} />
