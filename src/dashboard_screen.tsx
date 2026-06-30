@@ -44,20 +44,20 @@ export function DashboardScreen() {
         <div className="flex-1 flex flex-col items-center justify-center bg-[#151515] rounded-lg border border-[#333333] relative min-h-[300px]">
           <div className={`grid grid-cols-3 gap-4 transition-opacity duration-300 ${mode === 'auto' ? 'opacity-30 pointer-events-none' : ''}`}>
             <div></div>
-            <ControlButton icon={<ArrowUp className="w-12 h-12" />} onClick={() => handlePress('F')} />
+            <ControlButton icon={<ArrowUp className="w-12 h-12" />} onClick={() => handlePress('1')} />
             <div></div>
 
-            <ControlButton icon={<ArrowLeft className="w-12 h-12" />} onClick={() => handlePress('L')} />
+            <ControlButton icon={<ArrowLeft className="w-12 h-12" />} onClick={() => handlePress('4')} />
             <button 
-              onClick={() => handlePress('S')}
+              onClick={() => handlePress('0')}
               className="w-24 h-24 bg-[#FF4444] rounded-full shadow-[0_0_20px_rgba(255,68,68,0.4)] flex items-center justify-center hover:scale-105 active:scale-95 transition-transform"
             >
               <span className="font-black text-xl text-white">STOP</span>
             </button>
-            <ControlButton icon={<ArrowRight className="w-12 h-12" />} onClick={() => handlePress('R')} />
+            <ControlButton icon={<ArrowRight className="w-12 h-12" />} onClick={() => handlePress('3')} />
 
             <div></div>
-            <ControlButton icon={<ArrowDown className="w-12 h-12" />} onClick={() => handlePress('B')} />
+            <ControlButton icon={<ArrowDown className="w-12 h-12" />} onClick={() => handlePress('2')} />
             <div></div>
           </div>
 
